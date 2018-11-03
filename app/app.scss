@@ -1,0 +1,37 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~nativescript-theme-core/scss/light';
+
+// Override variables here
+
+@import '~nativescript-theme-core/scss/index';
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+Page {
+    background-color: white;
+    font-size: 24;
+
+}
+Image {
+    margin-top:35;
+    margin-bottom:50;
+}
+
+Button {
+    margin-top: 20;
+    margin-bottom: 20;
+    margin-left: 50;
+    margin-right: 50;
+    padding: 20;
+    background-color: rgba(70, 121, 230, 0.959);
+    font-weight: 500;
+    color: white;
+}
+
+
+.btn {
+    font-size: 18;
+}
+
